@@ -1,0 +1,358 @@
+/* BEGIN CODE HERE */
+
+/* .Header2 {
+   height: 150px;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   position: relative;
+
+   
+   border-bottom:solid;
+   border-bottom-width: 1px; 
+   border-color: rgb(241, 239, 239);
+   align-items: center;
+   
+}
+
+.Logo {
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 58px;
+    width: 250px;
+
+}
+
+.LinkForHomepage {
+    text-decoration: none;
+    height: 25px;    
+    position: absolute;
+    top:11px;
+    right:110px;
+}
+
+
+.ButtonForProducts { 
+    background-color: rgb(23, 118, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 5px;  
+
+    position: absolute;
+    top:5px;
+    right:10px;
+
+} */
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: rgb(225, 218, 218);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.logo-icon{
+    height: 58px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    
+}
+
+.home-button{
+    height: 30px;
+    border-style: none;
+    background-color: white;
+    color: rgb(23, 118, 241);
+    border-radius: 4px;
+    
+    font-family: Arial;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.products-button{
+    /* height: 30px;
+    border-style: none;
+    background-color: rgb(33, 129, 219);
+    color:  white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    background-color: rgb(23, 118, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 5px; 
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*END OF HEADER 2*/
+
+
+
+
+.Frame4 {
+    width : 1200px; 
+    margin-top: 20px;
+    
+}
+
+.Flexbox1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TextForSearch3{
+    font-size: 15px ;
+    /* color: rgb(112, 110, 110); */
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.SearchBar {
+    left:150px;
+    top :100px;
+    margin-left: 30px;
+    height:40px;
+    border-radius: 5px 0 0 5px;
+    border-color: rgb(241, 239, 239);
+    border-style: solid;
+    width: 230px;
+ }
+ 
+ .ButtonForSearch {
+    height:40px;
+    background-color: rgb(23, 118, 241);
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+.ResultsText {
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.Flexbox2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 18px; 
+    
+}
+
+.Id {   
+    width :100px;
+    border:1px solid  rgb(241, 239, 239);
+    border-width: 2px; 
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;  
+    font-weight: bold;
+
+    border-right-width: 1px;
+    height: 50px;
+      
+    
+}
+
+.Name{
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+
+    width: 156px;
+    border:1px solid  rgb(241, 239, 239);
+    border-width: 2px;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    font-weight: bold;
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+
+    height: 50px;
+
+    
+}
+
+.Production {
+    width : 402px;
+    border:1px solid  rgb(241, 239, 239);
+    border-width: 2px;
+    padding-right: 270px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;  
+    font-weight: bold;
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    height: 50px;
+
+   
+   
+}
+
+.Price{
+    width :129px;
+    border:1px solid  rgb(241, 239, 239);
+    border-width: 2px;
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;  
+    font-weight: bold;
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    height: 50px;
+    
+}
+
+.Color{
+    width : 142px;
+    border:1px solid  rgb(241, 239, 239);
+    border-width: 2px;
+    padding-right: 90px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;  
+    font-weight: bold;
+
+    border-left-width: 1px;
+    border-right-width: 1px;
+    height: 50px;
+}
+
+.Size{
+    width: 122px;
+    border:1px solid rgb(241, 239, 239);
+    border-width: 2px;
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;  
+    font-weight: bold;
+
+    border-left-width: 1px;
+    height: 50px;
+    
+}
+
+/*END OF FRAME 4*/
+
+.Frame5 {  
+    width: 1200px;
+    margin-top: 30px;
+   
+    height: 380px;
+}
+
+.AddText {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.TextForSearch {
+     font-size: 15px ;
+     /* color: rgb(112, 110, 110); */
+     margin-left: 18px;
+     margin-top: 10px;
+     width:70px; 
+}
+
+.SearchBar2 {
+    left:150px;
+    top :100px;
+    margin-left: 30px;
+    height:40px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(241, 239, 239);
+    border-style: solid;
+    width: 230px;
+}
+
+
+.SaveButton {
+    background-color: rgb(23, 118, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+     margin-left: 1010px; 
+
+    /* position: absolute;
+    top:650px;
+    right:10px; */
+
+
+}
+
+/*END OF FRAME 5*/
+
+.Footer2 {
+    height:100px;
+    color: gray;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 30px;
+    border-top:solid;
+    border-top-width: 1px;
+    border-color: rgb(241, 239, 239);
+   
+}
+
+/*END OF FOOTER 2*/
+
+
+/* END CODE HERE */
